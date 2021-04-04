@@ -1,0 +1,19 @@
+{
+  "name": "echoplus/first-plugin",
+  "description": "Testing Plugin",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "orel hassid",
+      "email": "orelhassid@outlook.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Inc\\": "./includes"
+    }
+  }
+}
